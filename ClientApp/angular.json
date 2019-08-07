@@ -145,5 +145,10 @@
       }
     }
   },
-  "defaultProject": "dotnetcore"
+  "defaultProject": "dotnetcore",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
